@@ -1,4 +1,4 @@
-![A photo of the device](https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg | width=300)
+![A photo of the device](https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg)
 
 # BrailleKey
 
