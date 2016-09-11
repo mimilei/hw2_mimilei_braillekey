@@ -1,4 +1,5 @@
 ![A photo of the device](https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg)
+<img src="https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg" width="300">
 
 # BrailleKey
 
@@ -19,7 +20,9 @@ The code powering BrailleKey is quite simple. It assigns eight of the Duo’s po
 
 The speed of the serial is set to 9600 and all ports corresponding to a key are specified as INPUT_PULLDOWN for their pinMode.
 ￼￼￼￼￼￼￼￼
+
 **`In loop()`:**
+
 In braille, every letter of the English alphabet is assigned a certain pattern of dots (there are six total). The input system employed by BrailleKey requires the user to press the specific pattern of dots for a character simultaneously (or as simultaneously as possible). In every iteration of the loop, the digital value of every single key is read and saved. Through a series of if statements, the loop compares the pattern of dots entered by the user with the existing dot patterns in the braille system. If there is a match, then the corresponding letter is printed out to Serial. Similarly, if the system detects that the space key or the newline key have been pressed (that is, its value is HIGH), a space or newline character is printed to Serial. If the user’s input pattern is not recognized by the program, then nothing happens. The loop implements a delay of 200 milliseconds between iterations.
 
 ##Designing the Physical device
