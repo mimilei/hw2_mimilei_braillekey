@@ -1,5 +1,7 @@
 ![A photo of the device](/img/braillekey.jpg)
 
+<img src="/img/braillekey.jpg" width="300">
+
 # BrailleKey
 
 ####A prototype for a mobile-friendly, text input device aimed at the visually impaired
@@ -40,7 +42,7 @@ During the planning process, BrailleKey was first conceptualized as two wooden b
 
 Next, I tried a more compact design that resembles Wii controllers or the handles of a bicycle. The user’s fingers should be able to curl naturally around the device so that the curve of the fingers fall comfortably on top of the keys. The base of the user’s thumb should be able to rest comfortably on the top edge of the handles, so that all users have to do to press the newline or space keys is to straighten the thumb so that the base of the bone hits the key.
 
-![Grip diagram](/img/usage.jpg "Grip diagram" | width="300")
+![Grip diagram](/img/usage.jpg "Grip diagram")
 
 ![Prototype sketch](/img/proto_sketch.jpg "Prototype sketch")
 
