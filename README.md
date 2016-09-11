@@ -1,4 +1,6 @@
-![A photo of the device](https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg)
+![A photo of the device](/img/braillekey.jpg)
+
+
 <a href = "url"><img src="https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg" width="300"></a>
 
 # BrailleKey
