@@ -1,7 +1,4 @@
-![A photo of the device](/img/braillekey.jpg)
-
-
-<a href = "url"><img src="https://github.com/mimilei/hw2_mimilei_braillekey/img/braillekey.jpg" width="300"></a>
+![A photo of the device](/img/braillekey_rotate.jpg)
 
 # BrailleKey
 
@@ -33,19 +30,19 @@ BrailleKey’s physical design is crafted to feel somewhat natural and to sugges
 
 Since a physical device for the visually impaired should be as haptically distinct as possible, I envisioned an interface that can be held in each hand and easily reached by the fingers. Such a system is small, fairly unobtrusive, and using current technology and very thin switches, could likely be reduced to the thickness of a piece of paper. Although the prototype is wired to the microcontroller, a more polished version could potentially communicate wirelessly.
 
-![Concept](https://github.com/mimilei/hw2_mimilei_braillekey/img/concept.jpg "Concept drawing")
+![Concept](/img/concept.jpg "Concept drawing")
 
 ### Brainstorming: Design Interactions
 
 During the planning process, BrailleKey was first conceptualized as two wooden boards with three buttons (for the six dots) on each. They were to be mounted on Adafruit protoboards. However, after some thought, I came to the conclusion that such an arrangement would be rather clunky and defeat the purpose of creating a lightweight, portable keyboard.
 
-![First sketch](https://github.com/mimilei/hw2_mimilei_braillekey/img/prelim_sketch.jpg "A preliminary sketch")
+![First sketch](/img/prelim_sketch.jpg "A preliminary sketch")
 
 Next, I tried a more compact design that resembles Wii controllers or the handles of a bicycle. The user’s fingers should be able to curl naturally around the device so that the curve of the fingers fall comfortably on top of the keys. The base of the user’s thumb should be able to rest comfortably on the top edge of the handles, so that all users have to do to press the newline or space keys is to straighten the thumb so that the base of the bone hits the key.
 
-![Grip diagram](https://github.com/mimilei/hw2_mimilei_braillekey/img/usage.jpg "Grip diagram")
+![Grip diagram](/img/usage.jpg "Grip diagram")
 
-![Prototype sketch](https://github.com/mimilei/hw2_mimilei_braillekey/img/proto_sketch.jpg "Prototype sketch")
+![Prototype sketch](/img/proto_sketch.jpg "Prototype sketch")
 
 The hand grips in the final prototype consist of two laser-cut pieces of wood glued together, to create greater thickness. Much of the final prototype resembles the above diagram, except for the fact that there are no button caps. This is because, given the size at which the handles were cut at and the depth of the grooves in the handles, button caps would protrude unnaturally far from the main body of the handles and likely act as more of an obstruction than an aid. Input is read via push-button switches soldered to copper tape and attached to the main breadboard by wiring.
 
@@ -53,7 +50,7 @@ The hand grips in the final prototype consist of two laser-cut pieces of wood gl
 
 The switches, when mounted on a breadboard, look like this:
 
-![Wiring](https://github.com/mimilei/hw2_mimilei_braillekey/img/wiring.jpg "Wiring")
+![Wiring](/img/wiring.jpg "Wiring")
 
 ## Future Improvements
 
